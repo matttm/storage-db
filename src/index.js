@@ -25,7 +25,7 @@ function createDbInstance() {
     db.Sequelize = Sequelize;
     db.sequelize = sequelize;
 
-    fs.readdir("./src/database", (err, files) => {
+    fs.readdir("./node_modules/storage-db/src", (err, files) => {
       if (err) {
         console.error("Error: ", err);
         rej(err);
