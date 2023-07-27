@@ -1,4 +1,4 @@
-# blood-bank-api
+# storage-db
 
 Development: Active
 
