@@ -39,12 +39,12 @@ module.exports = (sequelize, Sequelize) => {
       createdAt: {
         columnName: "CREATED_AT",
         type: "TIMESTAMP",
-        allowNull: false,
+        allowNull: true,
       },
       updatedAt: {
         columnName: "UPDATED_AT",
         type: "TIMESTAMP",
-        allowNull: false,
+        allowNull: true,
       },
     },
     {
